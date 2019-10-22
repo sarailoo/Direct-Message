@@ -1,0 +1,34 @@
+#drt_wrap{
+    padding: 10px;
+    border: 1px solid black;
+    font-family: "B Yekan";
+    font-size:9pt;
+}
+#drt_wrap p span:first-child{
+    display: inline-block;
+    width: 20%;
+}
+#drt_wrap p span:nth-child(2){
+    display: inline-block;
+    width: 70%;
+}
+#drt_wrap p span:nth-child(2) input[type=text]{
+    height: 28px;
+    width: 100%;
+}
+#drt_wrap p:nth-child(4) span textarea{
+    width: 100%;
+    height: 100px;
+}
+#drt_wrap .message {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#drt_wrap .error{
+    background-color: #bf1a1a;
+}
+#drt_wrap .success{
+    background-color:green;
+
+}
